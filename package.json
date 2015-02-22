@@ -1,0 +1,45 @@
+{
+  "name": "tibia-status",
+  "version": "0.0.1",
+  "description": "Catch information like players online, owner, motd, map weight, monsters, npcs, etc. passing IP and PORT from Tibia Server",
+  "homepage": "https://github.com/TibiaJS/serverstatus",
+  "author": {
+    "name": "Gabriel Pedro",
+    "email": "gpedro831@gmail.com",
+    "url": "https://gpedro.net"
+  },
+  "contributors": [{
+    "name": "Ranieri Althoff",
+    "email": "lordfire@otserv.com.br",
+    "url": "http://otserv.com.br"
+  }],
+  "repository": "TibiaJS/serverstatus",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "otserv",
+    "tibia",
+    "cipsoft",
+    "server",
+    "status"
+  ],
+  "dependencies": {
+    "q": "^1.2.0",
+    "xml2js": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0",
+    "grunt-mocha-cli": "^1.11.0",
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
