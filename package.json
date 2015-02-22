@@ -1,6 +1,6 @@
 {
   "name": "tibia-status",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Catch information like players online, owner, motd, map weight, monsters, npcs, etc. passing IP and PORT from Tibia Server",
   "homepage": "https://github.com/TibiaJS/serverstatus",
   "author": {
@@ -15,9 +15,7 @@
   }],
   "repository": "TibiaJS/serverstatus",
   "license": "MIT",
-  "files": [
-    "index.js"
-  ],
+  "main": "index.js",
   "keywords": [
     "otserv",
     "tibia",
