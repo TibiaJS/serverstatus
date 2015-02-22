@@ -56,8 +56,8 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[npm-url]: https://npmjs.org/package/serverstatus
-[npm-image]: https://badge.fury.io/js/serverstatus.svg
+[npm-url]: https://npmjs.org/package/tibia-status
+[npm-image]: https://badge.fury.io/js/tibia-status.svg
 [travis-url]: https://travis-ci.org/TibiaJS/serverstatus
 [travis-image]: https://travis-ci.org/TibiaJS/serverstatus.svg?branch=master
 [daviddm-url]: https://david-dm.org/TibiaJS/serverstatus.svg?theme=shields.io
