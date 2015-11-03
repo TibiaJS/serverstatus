@@ -1,3 +1,13 @@
+sudo: false
 language: node_js
 node_js:
+  - 'iojs'
   - '0.10'
+  - '0.12'
+before_script:
+  - npm install -g istanbul
+  - npm install -g mocha
+  - npm install -g codeclimate-test-reporter
+after_success:
+  - NODE_ENV=test LOG_LV=info istanbul cover _mocha -- -R spec test/node.js --timeout 20000
+  - codeclimate < ./coverage/lcov.info

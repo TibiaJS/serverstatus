@@ -1,4 +1,4 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image] [![Code Climate][climate-image]][climate-url] [![Test Coverage][coverage-image]][coverage-url]
 
 > Catch information like players online, owner, motd, map weight, monsters, npcs, etc. passing IP and PORT from Tibia Server
 
@@ -62,3 +62,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [travis-image]: https://travis-ci.org/TibiaJS/serverstatus.svg?branch=master
 [daviddm-url]: https://david-dm.org/TibiaJS/serverstatus.svg?theme=shields.io
 [daviddm-image]: https://david-dm.org/TibiaJS/serverstatus
+[coverage-image]: https://codeclimate.com/github/TibiaJS/serverstatus/badges/coverage.svg
+[coverage-url]: https://codeclimate.com/github/TibiaJS/serverstatus/coverage
+[climate-image]: https://codeclimate.com/github/TibiaJS/serverstatus/badges/gpa.svg
+[climate-url]: https://codeclimate.com/github/TibiaJS/serverstatus
