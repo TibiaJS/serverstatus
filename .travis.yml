@@ -7,5 +7,5 @@ before_script:
   - npm install -g mocha
   - npm install -g codeclimate-test-reporter
 after_success:
-  - NODE_ENV=test LOG_LV=info istanbul cover _mocha -- -R spec test/node.js --timeout 20000
+  - NODE_ENV=test LOG_LV=info istanbul cover _mocha -- -R spec test/test.js --timeout 20000
   - codeclimate < ./coverage/lcov.info
